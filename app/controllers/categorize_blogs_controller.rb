@@ -1,0 +1,2 @@
+class CategorizeBlogsController < ApplicationController
+end

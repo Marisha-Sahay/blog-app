@@ -1,0 +1,2 @@
+class CategorisedBlog < ApplicationRecord
+end

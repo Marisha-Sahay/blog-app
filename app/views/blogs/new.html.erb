@@ -1,0 +1,14 @@
+<h1> Blog Post </h1>
+<%= form_tag '/blogs', method: :post do %>
+  <div class="form-control">
+  <%= label_tag :title %>
+  <%= text_field_tag :title %>
+  </div>
+  <div class="form-control" rows="10">
+  <%= label_tag :description %>
+  <%= text_field_tag :description %>
+  </div>
+  <div>
+  <%= submit_tag "Submit" %>
+  </div>
+  <%end%>
